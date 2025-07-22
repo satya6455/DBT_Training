@@ -1,0 +1,3 @@
+SELECT *
+FROM {{ source('DEMO', 'BIKE_DATA') }}
+LIMIT 100
